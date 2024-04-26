@@ -1,0 +1,5 @@
+a, b, c = map(int, input().split())
+sa,sb,sc=map(str, [a,b,c])
+print (sa + '+' + sb + '+' + sc + '=' + str(a+b+c))
+print (sa + '*' + sb + '*' + sc + '=' + str(a*b*c))
+print ('(' + sa + '+' + sb + '+' + sc +')/3'+ '=' + str(a+b+c))
